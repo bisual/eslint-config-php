@@ -7,11 +7,11 @@
         "php",
         "lint"
     ],
-    "homepage": "https://github.com/bisual/bisual-eslint/tree/main/packages/eslint-config-php",
+    "homepage": "https://github.com/bisual/eslint-config-php",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bisual\\LintPhpConfig\\": "src/"
+            "Bisual\\LintConfigPhp\\": "src/"
         }
     },
     "authors": [
