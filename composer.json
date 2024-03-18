@@ -16,7 +16,8 @@
     },
     "authors": [
         {
-            "name": "Bisual"
+            "name": "Bisual",
+            "homepage": "https://bisual.net/"
         }
     ],
     "require": {
