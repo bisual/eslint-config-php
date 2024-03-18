@@ -34,8 +34,8 @@ In the `CodingStyle::getConfig()` function, you can provide parameters to config
 
 Install the [junstyle.php-cs-fixer]('https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer') extension in Visual Studio Code.
 
-_[!TIP]
-To facilitate the installation of the formatter extension in Visual Studio Code for new contributors, you can create an `extensions.json` file in the `.vscode` folder with the following content:
+> [!TIP]
+> To facilitate the installation of the formatter extension in Visual Studio Code for new contributors, you can create an `extensions.json` file in the `.vscode` folder with the following content:
 ```json
 {
   "recommendations": ["junstyle.php-cs-fixer"]
