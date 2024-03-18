@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace BisualEslintPhpConfig;
+namespace Bisual\EslintConfigPhp;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
-class BisualEslintPhpConfig {
+class LintPhpConfig {
   public static function getConfig(): Config {
     // https://mlocati.github.io/php-cs-fixer-configurator/#version:3.51
     $rules = [
