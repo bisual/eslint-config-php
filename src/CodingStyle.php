@@ -135,7 +135,7 @@ final class CodingStyle {
             // All classes must be final, except abstract ones and Doctrine entities. No exception and no configuration are intentional. Beside Doctrine entities and of course abstract classes, there is no single reason not to declare all classes final. If you want to subclass a class, mark the parent class as abstract and create two child classes, one empty if necessary: you'll gain much more fine grained type-hinting. If you need to mock a standalone class, create an interface, or maybe it's a value-object that shouldn't be mocked at all. If you need to extend a standalone class, create an interface and use the Composite pattern. If you aren't ready yet for serious OOP, go with FinalInternalClassFixer, it's fine. Warning: Risky when subclassing non-abstract classes.
             'final_class' => true,
             // All public methods of abstract classes should be final. Warning:  Risky when overriding public methods of abstract classes.
-            'final_public_method_for_abstract_class' => true,
+            'final_public_method_for_abstract_class' => false,
             // PHP code must use the long <?php tags or short-echo <?= tags and not other tag variations.
             'full_opening_tag' => true,
             // Removes the leading part of fully qualified symbol references if a given symbol is imported or belongs to the current namespace.
